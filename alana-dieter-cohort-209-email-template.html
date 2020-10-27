@@ -12,25 +12,43 @@
 <body>
     <div class="container-fluid my-container">
         <div class="row my-row">
-            <div class="col my-col">
-                Left Section 
-                <h2>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-2 my-col">
+                <!-- Left Section  -->
+                <h4>
                     Welcome, Alana!
-                </h2>
-                <ul>
-                    <li>Inbox (1)</li>
-                    <li>Tagged</li>
-                    <li>Important</li>
-                    <li>Sent Mail</li>
-                    <li>Drafts</li>
-                    <li>Trash</li>
-                </ul>
+                </h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Inbox (1)</a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Tagged</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Important</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Sent Mail</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Drafts</a>
+                      </li>
+                  </ul>
+                
+                
             </div>
-            <div class="col my-col">
-                Middle Section
+            <div class="col-lg-5 col-md-5 col-sm-4 col-xs-4 my-col">
+                <!-- Middle Section -->
+                <nav class="navbar navbar-light bg-light">
+                    <form class="form-inline">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                  </nav>
             </div>
-            <div class="col my-col">
-                Right Section
+            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-6 my-col">
+                <!-- Right Section -->
+                <h12>To: martyn@bayvalleytech.com <br> From: re-reply@theofficenbc.com</h12>
             </div>
         </div>
     </div>                        
