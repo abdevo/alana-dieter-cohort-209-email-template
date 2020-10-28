@@ -6,11 +6,21 @@ body {
     border: 1px green;
 }
 
+h4 {
+    font-size: small;
+    text-align: right;
 .my-row {
     border: 3px red;
-    height: 300px;
+    height: 500px;
 }
 
 .my-col {
-    border: 3px dotted brown;
+    border: 3px solid brown;
+}
+
+.navbar-text {
+    border: solid purple;
+}
+h12 {
+    text-align: center;
 }
