@@ -9,6 +9,8 @@ body {
 h4 {
     font-size: 16px;
     text-align: right;
+
+}
 .my-row {
     border: 3px red;
     height: 500px;
@@ -23,4 +25,8 @@ h4 {
 }
 h12 {
     text-align: center;
+}
+
+h1 {
+    font-size: 18px;
 }
