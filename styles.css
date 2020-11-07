@@ -1,32 +1,55 @@
 body {
-    margin: 30px;
+    margin: 0px;
+    height: 100%;
 }
 
 .my-container {
-    border: 1px green;
+    border: dotted  2px rgb(212, 226, 212);
 }
 
 h4 {
     font-size: 16px;
-    text-align: right;
+    /* text-align: right; */
 
 }
 .my-row {
-    border: 3px red;
+    border: 3px burgundy;
     height: 500px;
 }
+#compose-col {
+    background-color: rgba(37, 30, 30, 0.822);
+}
+.nav-pills {
+    font-family: sans-serif;
+}
+.active {
+    color: white;
+    text-decoration: none;
+}
+/* .nav-link active {
+    background-color: goldenrod;
+} */
 
-.my-col {
-    border: 3px solid brown;
+a {
+    color: inherit;
+    color: white;
 }
 
-.navbar-text {
-    border: solid purple;
+h2 {
+    font-size: 18px;
 }
-h12 {
+h1 {
+    font-size: 20px;
     text-align: center;
 }
+#welcome-heading {
+    display: flex;
+    align-items: center;
+    height: 32px;
+}
 
-h1 {
-    font-size: 18px;
+#welcome-heading {
+    margin-right: 9px;
+    top: 30px;
+
 }
